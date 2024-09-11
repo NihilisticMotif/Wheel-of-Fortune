@@ -1,0 +1,283 @@
+url = 'https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}
+ 
+rk">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors
+ 
+get="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blan
+ 
+&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" ta
+ 
+/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreet
+ 
+Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by
+ 
+const Stadia_StamenWatercolor = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}', {
+	minZoom: 1,
+	maxZoom: 16,
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'jpg'
+});
+ 
+<TileLayer
+attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+url = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+/>
+ 
+const createClusterCustomIcon = function (cluster) {
+  return new divIcon({
+    html: `<span class="cluster-icon">${cluster.getChildCount()}</span>`,
+    className: "custom-marker-cluster",
+    iconSize: point(33, 33, true)
+  });
+};
+const divIcon = new L.DivIcon();
+      const markersCluster = new window.L.MarkerClusterGroup({ // Use window.L for plugins
+        chunkedLoading: true,
+        iconCreateFunction: function (cluster) {
+          return divIcon({
+            html: cluster.getChildCount(),
+            className: "mycluster",
+            iconSize: null,
+          });
+        },
+});
+ 
+    iconCreateFunction={cluster_custom_icon}
+ 
+    iconCreateFunction={cluster_custom_icon}
+ 
+</MarkerClusterGroup>
+ 
+        key={marker.pop_up}
+ 
+    </>
+ 
+    <>
+ 
+</>
+ 
+    <>
+ 
+    <>
+ 
+    <>
+ 
+</>
+ 
+        {Variable}
+ 
+{
+    Name: 'Thom Yorke',
+    BirthDate: [7, 10, 1968],
+    ActiveYear: [1985, 'present'],
+    NotableSong: 'Weird Fishes'
+  },
+  {
+    Name: 'Adele',
+    BirthDate: [5, 5, 1988],
+    ActiveYear: [2006, 'present'],
+    NotableSong: 'Rolling in the Deep'
+  },
+  {
+    Name: 'Beyoncé',
+    BirthDate: [4, 9, 1981],
+    ActiveYear: [1997, 'present'],
+    NotableSong: 'Single Ladies (Put a Ring on It)'
+  },
+  {
+    Name: 'David Bowie',
+    BirthDate: [8, 1, 1947],
+    ActiveYear: [1964, 2016],
+    NotableSong: 'Heroes'
+  },
+  {
+    Name: 'Kurt Cobain',
+    BirthDate: [20, 2, 1967],
+    ActiveYear: [1987, 1994],
+    NotableSong: 'Smells Like Teen Spirit'
+  },
+  {
+    Name: 'Joni Mitchell',
+    BirthDate: [7, 11, 1943],
+    ActiveYear: [1964, 'present'],
+    NotableSong: 'Big Yellow Taxi'
+  }
+ 
+url = 
+ 
+// 
+ 
+/* 
+Other Related Website
+1. https://stackoverflow.com/questions/66890855/property-center-does-not-exist-on-type-intrinsicattributes-mapcontainerprop
+2. 
+*/
+ 
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+ 
+3. useState Hook
+ 
+{JSX_Artist}
+ 
+{/*
+ 
+*/}
+ 
+        alert(ColorLists[i])
+ 
+      alert(UpdateColor)
+ 
+    color: greenyellow;
+ 
+UpdateColor
+ 
+Input
+ 
+SS_StrColor[1]
+ 
+() => 
+ 
+  function RGBList(ls:[number,number,number]):[number,number,number]{
+    let OutputLs:[number,number,number] = [0,0,0]
+    for(let i=0;i<3;i++){
+      if (ls[i]>255){
+        OutputLs[i] = 255
+      }
+      else if (ls[i]<0){
+        OutputLs[i] = 0
+      }
+      else{
+        OutputLs[i] = ls[i]
+      }
+    }
+    return OutputLs
+  }
+ 
+return OutputLs
+ 
+.push(
+ 
+,number,number
+ 
+.value
+ 
+[number,number,number]
+ 
+1. Practice CSS
+2. Practice Loop
+ 
+#4. use Interface
+ 
+    <TodoList/>
+ 
+<li>NotableSong: {artist.NotableSong}</li>
+ 
+      <h1>Hedy Lamarr's Todos</h1>
+ 
+      <img
+        src="https://i.imgur.com/yXOvdOSs.jpg"
+        alt="Hedy Lamarr"
+        className="photo"
+      />
+ 
+        <li>Improve spectrum technology</li>
+ 
+</>
+ 
+i
+ 
+NameList
+ 
+export Names 
+ 
+ default
+ 
+:number
+ 
+:number
+ 
+// Loop List
+const Names:string[]=[
+  'Mumu',
+  'CheChe',
+  'Tata',
+  'Philip',
+  'Emma',
+  'Patee',
+  'Kham',
+  'Jojo',
+  'Phoom',
+  'Ami',
+  'Non',
+  'Amme'
+]
+ 
+const Names:string[]=[
+  'Mumu',
+  'CheChe',
+  'Tata',
+  'Philip',
+  'Emma',
+  'Patee',
+  'Kham',
+  'Jojo',
+  'Phoom',
+  'Ami',
+  'Non',
+  'Amme'
+]
+
+ 
+background-color: rgb(238, 130, 238);
+ 
+background-color: rgb(238, 130, 238);
+ 
+background-color: rgb(130, 238, 238);
+ 
+238
+ 
+  
+ 
+    r
+ 
+  
+ 
+    
+ 
+        <Box {is_red:true}/>
+ 
+is_red={true}
+ 
+Coding Smell
+* 
+ 
+Also create 
+ 
+</>
+ 
+<div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+ 

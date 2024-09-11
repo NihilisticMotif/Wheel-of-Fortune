@@ -103,7 +103,6 @@ export default function HelloWorld() {
     <hr/>
       <ul>
         {Variable}
-        {Variable}
         <li>Rehearse a movie scene {Multiply(3,5)}</li>
         {ReturnJSX(true)}
         {ReturnJSX(false)}
