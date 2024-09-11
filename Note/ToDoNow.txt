@@ -1,0 +1,10 @@
+To Do Now
+1. Writing Question about the Project and Search similar project
+2. Get wheelchair accessible map data
+3. Contributing to OSM 
+* https://wiki.openstreetmap.org/wiki/How_to_contribute
+* https://wiki.openstreetmap.org/wiki/Contribute_map_data
+
+Keyword
+1. wheelchair assissible 
+2. universal design
