@@ -1,0 +1,13 @@
+To Do Now
+
+
+
+5. SOLID principle
+6. Practice Tailwind
+7. Learn Leaflet
+8. Implementing Leaflet Map
+9. Writing Question about the Project and Search similar project 
+
+
+
+

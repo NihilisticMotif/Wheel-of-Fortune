@@ -1,0 +1,18 @@
+
+.Red{
+    font-size: large;
+    color: red;
+    text-align: center;
+    
+}
+
+.Blue {
+    font-size: large;
+    color: blue;
+    background-color: rgb(130, 238, 238);
+}
+
+.Body{
+    font-size: large;
+    text-align: center;
+}
