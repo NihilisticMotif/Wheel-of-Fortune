@@ -8,3 +8,8 @@ To Do Now
 Keyword
 1. wheelchair assissible 
 2. universal design
+
+To Do Now Now 
+1. Read this 
+* https://hnurn.medium.com/making-the-existing-react-project-a-pwa-and-android-app-a-simple-guide-9ebaa6ddb45e
+2. Set this app as Android app
