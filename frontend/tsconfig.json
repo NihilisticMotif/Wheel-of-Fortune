@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "../frontendpwa/src/BasicReactTutorial02", "../frontendpwa/src/BasicLeafletTutorial01", "../frontendpwa/src/BasicReactTutorial01/lists.tsx"  ]
 }
