@@ -1,0 +1,1056 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-09-30T08:41:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/114123787",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "is_in:province": "จังหวัดนครสวรรค์",
+        "name": "นครสวรรค์",
+        "name:de": "Nakhon Sawan",
+        "name:en": "Nakhon Sawan",
+        "name:es": "Nakhon Sawan",
+        "name:fr": "Nakhon Sawan",
+        "name:ja": "ナコン サワン",
+        "name:ru": "Накхонсаван",
+        "name:th": "นครสวรรค์",
+        "name:uk": "Накхонсаван",
+        "official_name": "เทศบาลนครนครสวรรค์",
+        "place": "city",
+        "population": "82305",
+        "source": "Wikipedia",
+        "wikidata": "Q1012434"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.1330046,
+          15.705783
+        ]
+      },
+      "id": "node/114123787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/178056220",
+        "admin_level": "7",
+        "alt_name:vi": "Chiềng Mai",
+        "capital": "4",
+        "name": "เชียงใหม่",
+        "name:cs": "Čiang Mai",
+        "name:de": "Chiang Mai",
+        "name:en": "Chiang Mai",
+        "name:et": "Si Chiang Mai",
+        "name:fr": "Chiang Mai",
+        "name:hi": "चिआंग माई",
+        "name:ja": "チェンマイ",
+        "name:kn": "ಚಿಅಂಗ್ ಮೈ",
+        "name:ko": "치앙마이",
+        "name:ru": "Чиангмай",
+        "name:sr": "Чијанг Мај",
+        "name:th": "เชียงใหม่",
+        "name:uk": "Чіанґмай",
+        "name:vi": "Chiêng Mài",
+        "name:zh": "清迈",
+        "note": "population 170,000 as of 2009",
+        "official_name": "เทศบาลนครเชียงใหม่",
+        "old_name:vi": "Xương Mại",
+        "place": "city",
+        "population": "127240",
+        "wikidata": "Q52028",
+        "wikipedia": "th:เทศบาลนครเชียงใหม่"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9858802,
+          18.7882778
+        ]
+      },
+      "id": "node/178056220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/206600521",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "is_in:province": "จังหวัดลำปาง",
+        "name": "ลำปาง",
+        "name:de": "Lampang",
+        "name:en": "Lampang",
+        "name:es": "Lampang",
+        "name:fr": "Lampang",
+        "name:ja": "ラムパーン",
+        "name:ru": "Лампанг",
+        "name:th": "ลำปาง",
+        "name:uk": "Лампанґ",
+        "name:zh": "南邦",
+        "official_name": "เทศบาลนครลำปาง",
+        "place": "city",
+        "population": "52124",
+        "source": "Wikipedia",
+        "wikidata": "Q1012610"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.4958526,
+          18.2899489
+        ]
+      },
+      "id": "node/206600521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/249246784",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "is_in:province": "จังหวัดเชียงราย",
+        "name": "เชียงราย",
+        "name:de": "Chiang Rai",
+        "name:en": "Chiang Rai",
+        "name:es": "Chiang Rai",
+        "name:fr": "Chiang Rai",
+        "name:hi": "चिआंग राय",
+        "name:it": "Chiang Rai",
+        "name:ja": "チエンラーイ",
+        "name:ru": "Чианграй",
+        "name:th": "เชียงราย",
+        "name:uk": "Чіанграй",
+        "name:vi": "Chiêng Hai",
+        "name:zh": "清萊",
+        "official_name": "เทศบาลนครเชียงราย",
+        "place": "city",
+        "population": "77672",
+        "source": "Wikipedia",
+        "wikidata": "Q856772",
+        "wikipedia": "en:Chiang Rai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.8332739,
+          19.9068867
+        ]
+      },
+      "id": "node/249246784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/252057835",
+        "admin_level": "7",
+        "capital": "4",
+        "name": "ภูเก็ต",
+        "name:bn": "ফুকেট",
+        "name:de": "Phuket",
+        "name:en": "Phuket",
+        "name:fr": "Phuket",
+        "name:he": "פוקט",
+        "name:hi": "फूकेत",
+        "name:ja": "プーケット",
+        "name:ko": "푸껫시",
+        "name:ru": "Пхукет",
+        "name:th": "ภูเก็ต",
+        "name:vi": "Phu Kẹt",
+        "name:zh": "普吉市",
+        "official_name": "เทศบาลนครภูเก็ต",
+        "place": "city",
+        "population": "79308",
+        "website": "https://www.phuketcity.go.th/",
+        "wikidata": "Q844430",
+        "wikipedia": "th:เทศบาลนครภูเก็ต"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.3891503,
+          7.8847901
+        ]
+      },
+      "id": "node/252057835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257903167",
+        "admin_level": "7",
+        "capital": "4",
+        "is_capital": "province",
+        "is_in:country": "Thailand",
+        "name": "อุดรธานี",
+        "name:en": "Udon Thani",
+        "name:et": "Udon Thani",
+        "name:fr": "Udon Thani",
+        "name:ja": "ウドーンターニー",
+        "name:ru": "Удонтхани",
+        "name:th": "อุดรธานี",
+        "official_name": "เทศบาลนครอุดรธานี",
+        "place": "city",
+        "population": "130531",
+        "source": "Wikipedia",
+        "wikidata": "Q816331",
+        "wikipedia": "pl:Udon Thani (miasto)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.7868105,
+          17.4082448
+        ]
+      },
+      "id": "node/257903167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257905362",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "name": "อุบลราชธานี",
+        "name:en": "Ubon Ratchathani",
+        "name:et": "Ubon Ratchathani",
+        "name:fr": "Ubon Ratchathani",
+        "name:ja": "ウボンラーチャターニー",
+        "name:ru": "Убонратчатхани",
+        "name:th": "อุบลราชธานี",
+        "name:uk": "Убонратчатхані",
+        "official_name": "เทศบาลนครอุบลราชธานี",
+        "place": "city",
+        "population": "74977",
+        "source": "Wikipedia",
+        "wikidata": "Q132179",
+        "wikipedia": "en:Ubon Ratchathani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8589462,
+          15.2274235
+        ]
+      },
+      "id": "node/257905362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/257905923",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "name": "สกลนคร",
+        "name:en": "Sakon Nakhon",
+        "name:fr": "Sakon Nakhon",
+        "name:ja": "サコンナコーン",
+        "name:ru": "Сакон Накхон",
+        "name:th": "สกลนคร",
+        "name:uk": "Сакон Накхон",
+        "official_name": "เทศบาลนครสกลนคร",
+        "place": "city",
+        "population": "53100",
+        "source": "Wikipedia",
+        "wikidata": "Q1012639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1500731,
+          17.1651224
+        ]
+      },
+      "id": "node/257905923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/278056967",
+        "admin_level": "6",
+        "capital": "6",
+        "name": "พัทยา",
+        "name:de": "Pattaya",
+        "name:en": "Pattaya",
+        "name:et": "Pattaya",
+        "name:fa": "پاتایا",
+        "name:fr": "Pattaya",
+        "name:hi": "पटाया",
+        "name:ja": "パッタヤー",
+        "name:kn": "ಪಟ್ಟಾಯ",
+        "name:ml": "പട്ടയ",
+        "name:ne": "पटाया",
+        "name:ru": "Паттайя",
+        "name:sr": "Патаја",
+        "name:th": "พัทยา",
+        "name:zh": "芭提雅",
+        "official_name": "เมืองพัทยา",
+        "place": "city",
+        "population": "119532",
+        "population:date": "2019",
+        "source:population": "wikipedia",
+        "wikidata": "Q170919",
+        "wikipedia": "en:Pattaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.8865002,
+          12.9366924
+        ]
+      },
+      "id": "node/278056967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/297328621",
+        "capital": "6",
+        "is_in": "Songkhla, Thailand",
+        "is_in:country": "Thailand",
+        "name": "หาดใหญ่",
+        "name:de": "Hat Yai",
+        "name:en": "Hat Yai",
+        "name:et": "Hat Yai",
+        "name:ja": "ハートヤイ",
+        "name:ru": "Хатъяй",
+        "name:th": "หาดใหญ่",
+        "name:uk": "Хатяй",
+        "name:zh": "合艾市",
+        "official_name": "เทศบาลนครหาดใหญ่",
+        "place": "city",
+        "population": "156802",
+        "wikidata": "Q651286",
+        "wikipedia": "en:Hat Yai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4689889,
+          7.0074644
+        ]
+      },
+      "id": "node/297328621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/297337782",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "name": "สงขลา",
+        "name:en": "Songkhla",
+        "name:fr": "Songkhla",
+        "name:ja": "ソンクラー",
+        "name:ru": "Сонгкхла",
+        "name:th": "สงขลา",
+        "name:uk": "Сонгкхла",
+        "name:zh": "宋卡市",
+        "official_name": "เทศบาลนครสงขลา",
+        "old_name": "Singgora;Singora",
+        "place": "city",
+        "population": "61758",
+        "wikidata": "Q795595"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.593205,
+          7.1973429
+        ]
+      },
+      "id": "node/297337782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/301213036",
+        "admin_level": "7",
+        "capital": "6",
+        "is_in:country": "Thailand",
+        "is_in:country_code": "TH",
+        "is_in:district": "Mae Sot",
+        "is_in:province": "จังหวัดตาก",
+        "name": "แม่สอด",
+        "name:ca": "Mae Sot",
+        "name:de": "Mae Sot",
+        "name:en": "Mae Sot",
+        "name:es": "Mae Sot",
+        "name:et": "Mae Sot",
+        "name:fr": "Mae Sot",
+        "name:ja": "メーソート",
+        "name:ko": "매솟",
+        "name:ru": "Мае Сот",
+        "name:th": "แม่สอด",
+        "name:zh": "美索",
+        "official_name": "เทศบาลนครแม่สอด",
+        "place": "city",
+        "population": "41424",
+        "wikidata": "Q475964",
+        "wikipedia": "th:แม่สอด"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.5695528,
+          16.714992
+        ]
+      },
+      "id": "node/301213036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/304199925",
+        "admin_level": "7",
+        "capital": "4",
+        "name": "สมุทรปราการ",
+        "name:de": "Samut Prakan",
+        "name:en": "Samut Prakan",
+        "name:fr": "Samut Prakan",
+        "name:th": "สมุทรปราการ",
+        "official_name": "เทศบาลนครสมุทรปราการ",
+        "place": "city",
+        "population": "50843"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5966707,
+          13.5949486
+        ]
+      },
+      "id": "node/304199925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356814884",
+        "admin_level": "7",
+        "capital": "6",
+        "description": "reference (population @ 2018): http://stat.bora.dopa.go.th/stat/xstat/new/POPHSE/stat_t61.txt",
+        "name": "ปากเกร็ด",
+        "name:en": "Pak Kret",
+        "name:et": "Pak Kret",
+        "name:fr": "Pak Kret",
+        "name:ja": "パックレット",
+        "name:ru": "Пак-Крет",
+        "name:th": "ปากเกร็ด",
+        "official_name": "เทศบาลนครปากเกร็ด",
+        "place": "city",
+        "population": "190272",
+        "wikidata": "Q476330",
+        "wikipedia": "en:Pak Kret District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4974327,
+          13.9120701
+        ]
+      },
+      "id": "node/356814884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/359862014",
+        "admin_level": "7",
+        "capital": "4",
+        "description": "reference (population @ 2018): http://stat.bora.dopa.go.th/stat/xstat/new/POPHSE/stat_t61.txt",
+        "name": "นนทบุรี",
+        "name:en": "Nonthaburi",
+        "name:et": "Nonthaburi",
+        "name:eu": "Nonthaburi",
+        "name:fr": "Nonthaburi",
+        "name:ja": "ノンタブリー",
+        "name:ru": "Нонтабури",
+        "name:th": "นนทบุรี",
+        "name:zh": "暖武里市",
+        "note": "Since many provincial halls are located outside of the city, they should not be used for city location.",
+        "official_name": "เทศบาลนครนนทบุรี",
+        "place": "city",
+        "population": "254375",
+        "source:population": "Department of Provincial Administration",
+        "wikidata": "Q768864"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4937886,
+          13.8428962
+        ]
+      },
+      "id": "node/359862014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/360352320",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "name": "นครปฐม",
+        "name:en": "Nakhon Pathom",
+        "name:fr": "Nakhon Pathom",
+        "name:ja": "ナコーンパトム",
+        "name:ru": "Накхонпатхом",
+        "name:th": "นครปฐม",
+        "official_name": "เทศบาลนครนครปฐม",
+        "place": "city",
+        "population": "74446",
+        "wikidata": "Q520338",
+        "wikipedia": "en:Nakhon Pathom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.0639917,
+          13.8190071
+        ]
+      },
+      "id": "node/360352320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/369493329",
+        "admin_level": "7",
+        "capital": "4",
+        "name": "ขอนแก่น",
+        "name:en": "Khon Kaen",
+        "name:et": "Khon Kaen",
+        "name:fr": "Khon Kaen",
+        "name:ja": "コーンケン",
+        "name:ru": "Кхонкэн",
+        "name:th": "ขอนแก่น",
+        "name:uk": "Кхонкен",
+        "name:zh": "坤敬",
+        "official_name": "เทศบาลนครขอนแก่น",
+        "place": "city",
+        "population": "114459",
+        "source": "GPS;sign",
+        "wikidata": "Q876526",
+        "wikipedia": "en:Khon Kaen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.8355904,
+          16.4303916
+        ]
+      },
+      "id": "node/369493329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/372810213",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "name": "สมุทรสาคร",
+        "name:en": "Samut Sakhon",
+        "name:fr": "Samut Sakhon",
+        "name:ja": "サムットサーコーン",
+        "name:ru": "Самутсакхон",
+        "name:th": "สมุทรสาคร",
+        "official_name": "เทศบาลนครสมุทรสาคร",
+        "place": "city",
+        "population": "67515",
+        "wikidata": "Q1359220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2742813,
+          13.5497782
+        ]
+      },
+      "id": "node/372810213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/372811021",
+        "admin_level": "7",
+        "capital": "4",
+        "name": "ระยอง",
+        "name:en": "Rayong",
+        "name:fr": "Rayong",
+        "name:ja": "ラヨーン",
+        "name:ru": "Районг",
+        "name:th": "ระยอง",
+        "name:uk": "Районг",
+        "official_name": "เทศบาลนครระยอง",
+        "place": "city",
+        "population": "63565",
+        "wikidata": "Q1015123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.277765,
+          12.6817905
+        ]
+      },
+      "id": "node/372811021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/372812084",
+        "capital": "4",
+        "name": "ยะลา",
+        "name:en": "Yala",
+        "name:fr": "Yala",
+        "name:ja": "ヤラー",
+        "name:ru": "Яла",
+        "name:th": "ยะลา",
+        "name:uk": "Яла",
+        "name:zh": "惹拉市",
+        "name:zh-Hans": "惹拉市",
+        "name:zh-Hant": "惹拉市",
+        "official_name": "เทศบาลนครยะลา",
+        "place": "city",
+        "population": "60617",
+        "wikidata": "Q1207083",
+        "wikipedia": "en:Yala, Thailand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.2902517,
+          6.5567245
+        ]
+      },
+      "id": "node/372812084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/372812229",
+        "admin_level": "7",
+        "capital": "4",
+        "name": "ตรัง",
+        "name:de": "Trang",
+        "name:en": "Trang",
+        "name:fr": "Trang",
+        "name:ja": "トラン",
+        "name:ru": "Транг",
+        "name:th": "ตรัง",
+        "name:uk": "Транґ",
+        "name:zh": "董里市",
+        "official_name": "เทศบาลนครตรัง",
+        "place": "city",
+        "population": "59304",
+        "wikidata": "Q1014322",
+        "wikipedia": "en:Trang, Thailand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.6076502,
+          7.5557778
+        ]
+      },
+      "id": "node/372812229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/372813341",
+        "admin_level": "7",
+        "capital": "4",
+        "name": "นครศรีธรรมราช",
+        "name:en": "Nakhon Si Thammarat",
+        "name:et": "Nakhon Si Thammarat",
+        "name:fr": "Nakhon Si Thammarat",
+        "name:ja": "ナコーンシータンマラート",
+        "name:ru": "Накхонситхаммарат",
+        "name:th": "นครศรีธรรมราช",
+        "name:uk": "Накхонсітхаммарат",
+        "name:zh": "洛坤市",
+        "official_name": "เทศบาลนครนครศรีธรรมราช",
+        "place": "city",
+        "population": "102152",
+        "wikidata": "Q1012424",
+        "wikipedia": "en:Nakhon Si Thammarat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.9627967,
+          8.4327951
+        ]
+      },
+      "id": "node/372813341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/372813885",
+        "admin_level": "7",
+        "capital": "4",
+        "name": "สุราษฎร์ธานี",
+        "name:de": "Surat Thani",
+        "name:en": "Surat Thani",
+        "name:et": "Surat Thani",
+        "name:fr": "Surat Thani",
+        "name:ja": "スラートターニー",
+        "name:ru": "Сураттхани",
+        "name:th": "สุราษฎร์ธานี",
+        "official_name": "เทศบาลนครสุราษฎร์ธานี",
+        "place": "city",
+        "population": "132040",
+        "wikidata": "Q840951",
+        "wikipedia": "en:Surat Thani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.3241347,
+          9.1404136
+        ]
+      },
+      "id": "node/372813885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/373164985",
+        "addr:postcode": "13000",
+        "admin_level": "7",
+        "alt_name:fr": "Ayutthaya",
+        "capital": "4",
+        "name": "พระนครศรีอยุธยา",
+        "name:de": "Phra Nakhon Si Ayutthaya",
+        "name:en": "Phra Nakhon Si Ayutthaya",
+        "name:es": "Phra Nakhon Si Ayutthaya",
+        "name:fr": "Phra Nakhon Si Ayutthaya",
+        "name:ja": "アユタヤ",
+        "name:ru": "Аюттхая",
+        "name:th": "พระนครศรีอยุธยา",
+        "name:zh": "大城",
+        "name:zh-Hant": "大城",
+        "official_name": "เทศบาลนครพระนครศรีอยุธยา",
+        "old_name": "กรุงเก่า",
+        "old_name:en": "Krung Kao",
+        "place": "city",
+        "population": "50830",
+        "short_name": "อยุธยา",
+        "short_name:en": "Ayutthaya",
+        "wikidata": "Q203370",
+        "wikipedia": "en:Phra Nakhon Si Ayutthaya (city)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5645684,
+          14.3535427
+        ]
+      },
+      "id": "node/373164985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1395854447",
+        "admin_level": "7",
+        "alt_name:en": "Korat",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "loc_name": "โคราช",
+        "loc_name:en": "Khorat",
+        "name": "นครราชสีมา",
+        "name:en": "Nakhon Ratchasima",
+        "name:et": "Nakhon Ratchasima",
+        "name:fr": "Nakhon Ratchasima",
+        "name:ja": "ナコーンラーチャシーマー",
+        "name:ru": "Накхонратчасима",
+        "name:th": "นครราชสีมา",
+        "name:uk": "Накхонратчасіма",
+        "official_name": "เทศบาลนครนครราชสีมา",
+        "place": "city",
+        "population": "126391",
+        "source": "Bing",
+        "wikidata": "Q633036",
+        "wikipedia": "th:เทศบาลนครนครราชสีมา"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.0981161,
+          14.9747339
+        ]
+      },
+      "id": "node/1395854447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1628207792",
+        "admin_level": "4",
+        "alt_name:en": "Krung Thep Maha Nakhon",
+        "alt_name:eo": "Bangkoko",
+        "alt_name:ko": "끄룽텝 마하나콘",
+        "alt_name:ru": "Крунгтеп-Маханакхон",
+        "alt_name:vi": "Bangkok",
+        "alt_official_name:zh": "帝釋天旨述、工巧天神築，天子御駐，極宮浮出，九玉樂都，宏偉盛處，金湯天固，玉佛永屬之天神京都",
+        "capital": "yes",
+        "ele": "5",
+        "int_name": "Bangkok",
+        "name": "กรุงเทพมหานคร",
+        "name:am": "ባንኮክ",
+        "name:ar": "بانكوك",
+        "name:arz": "بانكوك",
+        "name:az": "Banqkok",
+        "name:bat-smg": "Bankoks",
+        "name:be": "Бангкок",
+        "name:bg": "Банкок",
+        "name:bn": "ব্যাংকক",
+        "name:bo": "པན་ཀོག",
+        "name:bpy": "চাংৱাত ব্যাংকক",
+        "name:ckb": "بانکۆک",
+        "name:cs": "Bangkok",
+        "name:cv": "Бангкок",
+        "name:de": "Bangkok",
+        "name:el": "Μπανγκόκ",
+        "name:en": "Bangkok",
+        "name:eo": "Bankoko",
+        "name:es": "Bangkok",
+        "name:et": "Bangkok",
+        "name:eu": "Bangkok",
+        "name:fa": "بانکوک",
+        "name:fi": "Bangkok",
+        "name:fr": "Bangkok",
+        "name:ga": "Bancác",
+        "name:gl": "Bangkok",
+        "name:hak": "Màn-kuk",
+        "name:he": "בנגקוק",
+        "name:hi": "बैंकॉक",
+        "name:hr": "Bangkok",
+        "name:hu": "Bangkok",
+        "name:hy": "Բանգկոկ",
+        "name:ia": "Bangkok",
+        "name:ie": "Banghok",
+        "name:io": "Bangkok",
+        "name:is": "Bangkok",
+        "name:it": "Bangkok",
+        "name:ja": "バンコク",
+        "name:ka": "ბანგკოკი",
+        "name:kk": "Бангкок",
+        "name:km": "បាងកក",
+        "name:kn": "ಬಾಂಗ್ಕೊಕ್",
+        "name:ko": "방콕",
+        "name:koi": "Бангкок",
+        "name:ku": "Bangkok",
+        "name:la": "Bancocum",
+        "name:lo": "ບາງກອກ",
+        "name:lt": "Bankokas",
+        "name:lv": "Bangkoka",
+        "name:lzh": "曼谷",
+        "name:mhr": "Бангкок",
+        "name:mk": "Бангкок",
+        "name:ml": "ബാങ്കോക്ക്",
+        "name:mn": "Бангкок",
+        "name:mr": "बँकॉक",
+        "name:mwl": "Banguecoque",
+        "name:my": "ဘန်ကောက်မြို့",
+        "name:ne": "बैङ्कक",
+        "name:new": "बैंकक",
+        "name:nl": "Bangkok",
+        "name:oc": "Bangkòk",
+        "name:os": "Бангкок",
+        "name:pl": "Bangkok",
+        "name:pnb": "بنکاک",
+        "name:ps": "بانګکوک",
+        "name:pt": "Banguecoque",
+        "name:ru": "Бангкок",
+        "name:rue": "Банкок",
+        "name:sah": "Баҥкок",
+        "name:si": "බැංකොක්",
+        "name:sk": "Bangkok",
+        "name:sl": "Bangkok",
+        "name:sr": "Бангкок",
+        "name:stq": "Bangkok",
+        "name:sv": "Bangkok",
+        "name:szl": "Bangkok",
+        "name:ta": "பேங்காக்",
+        "name:tg": "Бангкок",
+        "name:th": "กรุงเทพมหานคร",
+        "name:th-Latn": "Krung Thep Maha Nakhon",
+        "name:uk": "Банґкок",
+        "name:ur": "بنکاک",
+        "name:vi": "Băng Cốc",
+        "name:wuu": "曼谷",
+        "name:yi": "באנגקאק",
+        "name:yue": "曼谷",
+        "name:zh": "曼谷",
+        "name:zh-Hans": "曼谷",
+        "name:zh-Hant": "曼谷",
+        "official_name": "กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลกภพ นพรัตนราชธานีบูรีรมย์ อุดมราชนิเวศน์มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยวิษณุกรรมประสิทธิ์",
+        "official_name:en": "Krung Thep Mahanakhon Amon Rattanakosin Mahinthara Ayuthaya Mahadilok Phop Noppharat Ratchathani Burirom Udomratchaniwet Mahasathan Amon Piman Awatan Sathit Sakkathattiya Witsanukam Prasit",
+        "official_name:ko": "끄룽 텝 마하나콘 아몬 라따나꼬신 마힌타라 유타야 마하딜록 폽 노파랏 랏차타니 부리롬 우돔랏차니웻 마하사탄 아몬 피만 아와딴 사팃 사카타띠야 윗사누깜 쁘라싯",
+        "official_name:ru": "Крунг-Теп-Маханакон-Амон-Раттанакосин-Махинтараюттая-Махадилок-Поп-Ноппарат-Ратчатани-Буриром-Удомратчанивет-Махасатан-Амон-Пиман-Аватан-Сатит-Саккататтийя-Витсанукам-Прасит",
+        "official_name:th": "กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลกภพ นพรัตนราชธานีบูรีรมย์ อุดมราชนิเวศน์มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยวิษณุกรรมประสิทธิ์",
+        "official_name:uk": "Крунґ-Тхеп-Маха-Накхон",
+        "official_name:zh": "功特瑪哈那空，阿蒙拉達納戈信，瑪欣他拉育他亞，瑪哈迪洛朴，諾帕拉拉差他尼布里龍，烏東拉差尼韋瑪哈沙探，阿蒙披曼阿瓦丹沙提，沙甲他迪亞威沙努甘巴西",
+        "old_name:vi": "Vọng Các",
+        "place": "city",
+        "population": "5666264",
+        "rank": "0",
+        "ref": "BKK",
+        "wikidata": "Q1861",
+        "wikipedia": "th:กรุงเทพมหานคร"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4935089,
+          13.7524938
+        ]
+      },
+      "id": "node/1628207792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1848247913",
+        "admin_level": "7",
+        "name": "รังสิต",
+        "name:en": "Rangsit",
+        "name:fr": "Rangsit",
+        "name:ja": "ランシット",
+        "name:th": "รังสิต",
+        "official_name": "เทศบาลนครรังสิต",
+        "place": "city",
+        "population": "85260",
+        "wikidata": "Q14230710"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6100666,
+          13.987449
+        ]
+      },
+      "id": "node/1848247913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1919715630",
+        "admin_level": "7",
+        "name": "แหลมฉบัง",
+        "name:en": "Laem Chabang",
+        "name:ja": "レムチャバン",
+        "name:ru": "Лаем Чабанг",
+        "name:th": "แหลมฉบัง",
+        "official_name": "เทศบาลนครแหลมฉบัง",
+        "place": "city",
+        "population": "88271",
+        "wikidata": "Q1025958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9180778,
+          13.0883664
+        ]
+      },
+      "id": "node/1919715630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2418075349",
+        "admin_level": "7",
+        "name": "อ้อมน้อย",
+        "name:en": "Om Noi",
+        "name:th": "อ้อมน้อย",
+        "official_name": "เทศบาลนครอ้อมน้อย",
+        "place": "city",
+        "population": "53978",
+        "wikidata": "Q13025345",
+        "wikipedia": "en:Om Noi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2990098,
+          13.7064729
+        ]
+      },
+      "id": "node/2418075349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7355162734",
+        "admin_level": "7",
+        "capital": "6",
+        "name": "เกาะสมุย",
+        "name:en": "Ko Samui",
+        "name:th": "เกาะสมุย",
+        "note": "Koh Samui has city status. See here: https://en.wikipedia.org/w/index.php?title=Ko_Samui#Administration",
+        "official_name": "เทศบาลนครเกาะสมุย",
+        "place": "city",
+        "population": "70059",
+        "wikidata": "Q270375",
+        "wikipedia": "de:Ko Samui"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.9957562,
+          9.5071545
+        ]
+      },
+      "id": "node/7355162734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8643175475",
+        "admin_level": "7",
+        "capital": "4",
+        "is_in:country": "Thailand",
+        "is_in:province": "จังหวัดพิษณุโลก",
+        "name": "พิษณุโลก",
+        "name:de": "Phitsanulok",
+        "name:en": "Phitsanulok",
+        "name:es": "Phitsanulok",
+        "name:fr": "Phitsanulok",
+        "name:ja": "ピッサヌローク",
+        "name:ru": "Пхитсанулок",
+        "name:th": "พิษณุโลก",
+        "name:uk": "Пхітсанулок",
+        "name:zh": "彭世洛",
+        "official_name": "เทศบาลนครพิษณุโลก",
+        "place": "city",
+        "population": "66106",
+        "source": "Wikipedia",
+        "wikidata": "Q867579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2647898,
+          16.8150258
+        ]
+      },
+      "id": "node/8643175475"
+    }
+  ]
+}

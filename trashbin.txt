@@ -1,3 +1,324 @@
+<Marker 
+        position={[13,100]} 
+        icon={icon}
+    >
+    <Popup>
+<h1>ชื่อ </h1>
+</Popup>
+    </Marker>
+ 
+{//
+ 
+<h1>Name </h1>
+ 
+{city.name_en}
+ 
+{city.name}
+ 
+const thai_city:JSX.Element[] = SSCSV.map(city => (
+    <Marker 
+        position={[city.lon, city.lat]} 
+        icon={icon}
+    >
+    <Popup>
+<h1>ชื่อ {city.name}</h1>
+<h1>Name {city.name_en}</h1>
+</Popup>
+    </Marker>
+))
+ 
+  console.log(data)
+ 
+</MarkerClusterGroup>
+ 
+<MarkerClusterGroup
+    chunkedLoading
+>
+ 
+city.lat
+ 
+<MarkerClusterGroup
+chunkedLoading
+></MarkerClusterGroup>
+ 
+<CSVImporter
+        // modalIsOpen={isOpen}
+        // modalOnCloseTriggered={() => setIsOpen(false)}
+        darkMode={true}
+        onComplete={(data) => console.log(data)}
+        template={{
+          columns: [
+            {
+              name: "First Name",
+              key: "first_name",
+              required: true,
+              description: "The first name of the user",
+              suggested_mappings: ["First", "Name"],
+            },
+            {
+              name: "Age",
+              data_type: "number",
+            },
+          ],
+        }}
+      />
+ 
+</h1>
+ 
+custom_
+ 
+<div>{home.home_name}</div>
+ 
+return (
+<>
+{SSCSV}
+</>
+)
+/*
+ 
+import './App.css';
+ 
+      <h1>Parse CSV files</h1>
+ 
+recipe_
+ 
+import data from './tutorialdata_01.geojson'
+ 
+tutorial/
+ 
+//   return (
+//     <MapContainer center={SSCenter} zoom={SSZoom} style={{ height: '100vh', width: '100%' }}>
+//       <TileLayer
+//         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+//         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+//       />
+// 
+//       {/* Render Markers for Each City */}
+//       {cityData.map((city, index) => (
+//         <Marker key={index} position={[city.geometry.coordinates[1], city.geometry.coordinates[0]]}>
+//           <Popup>
+//             <strong>{city.properties["name:th"] || city.properties.name}</strong>
+//             <br />
+//             English: {city.properties["name:en"] || "N/A"}
+//           </Popup>
+//         </Marker>
+//       ))}
+//     </MapContainer>
+//   );
+
+ 
+import { GeoJSONData } from 'react-leaflet';
+ 
+console.log(SSCSV)
+ 
+.features
+ 
+const data = require('./data/thai_city.geojson');
+ 
+{jsx_marker}
+ 
+.keys
+ 
+(marker)=>(
+    <Marker 
+        position={marker.geocode} 
+        icon={custom_icon}
+    >
+    <Popup>My name is {marker.pop_up}.</Popup>
+    </Marker>
+)
+ 
+:I_Marker
+ 
+import './city_in_Thailand.csv'
+ 
+import './city_in_Thailand.csv'
+ 
+import data from './thai_city.geojson'
+ 
+ https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#CSV_output_mode
+// 3.
+ 
+
+// Reference
+// 1. https://stackoverflow.com/questions/23501075/getting-all-cities-in-a-specific-country-using-openstreetmap
+// 2. https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#CSV_output_mode
+// 3. https://overpass-turbo.eu/
+ 
+return (
+<>
+{SSCSV.map(home => <div>{home.home_name}</div>)}
+</>
+)
+/*
+ 
+const { fetchCsvData }  = useFetch();
+
+useEffect(() => {
+    fetchCsvData('./city_in_Thailand.csv', setSSCSV)
+    console.log(JSON.stringify(SSCSV))
+/*
+// Output
+[{"<!doctype_html>":"<html lang=\"en\">"},{"<!doctype_html>":"  <head>"},{"<!doctype_html>":"    <meta charset=\"utf-8\" />"},{"<!doctype_html>":"    <link rel=\"icon\" href=\"/favicon.ico\" />"},{"<!doctype_html>":"    <meta name=\"viewport\" content=\"width=device-width","__parsed_extra":[" initial-scale=1\" />"]},{"<!doctype_html>":"    <meta name=\"theme-color\" content=\"#000000\" />"},{"<!doctype_html>":"    <meta name=\"description\" content=\"Web site created using create-react-app\" />"},{"<!doctype_html>":"    <link rel=\"apple-touch-icon\" href=\"/logo192.png\" />"},{"<!doctype_html>":"    <!--"},{"<!doctype_html>":"      manifest.json provides metadata used when your web app is installed on a"},{"<!doctype_html>":"      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/"},{"<!doctype_html>":"    -->"},{"<!doctype_html>":"    <link rel=\"manifest\" href=\"/manifest.json\" />"},{"<!doctype_html>":"    <!--"},{"<!doctype_html>":"      Notice the use of  in the tags above."},{"<!doctype_html>":"      It will be replaced with the URL of the `public` folder during the build."},{"<!doctype_html>":"      Only files inside the `public` folder can be referenced from the HTML."},{"<!doctype_html>":null},{"<!doctype_html>":"      Unlike \"/favicon.ico\" or \"favicon.ico\"","__parsed_extra":[" \"/favicon.ico\" will"]},{"<!doctype_html>":"      work correctly both with client-side routing and a non-root public URL."},{"<!doctype_html>":"      Learn how to configure a non-root public URL by running `npm run build`."},{"<!doctype_html>":"    -->"},{"<!doctype_html>":"    <title>React App</title>"},{"<!doctype_html>":"  <script defer src=\"/static/js/bundle.js\"></script></head>"},{"<!doctype_html>":"  <body>"},{"<!doctype_html>":"    <noscript>You need to enable JavaScript to run this app.</noscript>"},{"<!doctype_html>":"    <div id=\"root\"></div>"},{"<!doctype_html>":"    <!--"},{"<!doctype_html>":"      This HTML file is a template."},{"<!doctype_html>":"      If you open it directly in the browser","__parsed_extra":[" you will see an empty page."]},{"<!doctype_html>":null},{"<!doctype_html>":"      You can add webfonts","__parsed_extra":[" meta tags"," or analytics to this file."]},{"<!doctype_html>":"      The build step will place the bundled scripts into the <body> tag."},{"<!doctype_html>":null},{"<!doctype_html>":"      To begin the development","__parsed_extra":[" run `npm start` or `yarn start`."]},{"<!doctype_html>":"      To create a production bundle","__parsed_extra":[" use `npm run build` or `yarn build`."]},{"<!doctype_html>":"    -->"},{"<!doctype_html>":"  </body>"},{"<!doctype_html>":"</html>"},{"<!doctype_html>":null}]
+*/
+}, [])
+ 
+import useFetch from '../hooks/useFetch';
+ 
+      {/* {polygonData.map((polygon) => (
+        <Polygon
+          key={polygon.id}
+          positions={polygon.coordinates}
+          color={polygon.workers === 0 ? "red" : "blue"}
+          eventHandlers={{
+            click: () => {
+              setActivePolygon(polygon);
+            }
+          }}
+        />
+      ))} */}
+      {/* {activePolygon && (
+        <Popup
+          position={[
+            activePolygon.coordinates[0][0],
+            activePolygon.coordinates[0][1],
+            activePolygon.coordinates[0][2]
+          ]}
+          onClose={() => {
+            setActivePolygon(null);
+          }}
+        >
+          <div>
+            <h2>Zone {activePolygon.id}</h2>
+            <p>Workers: {activePolygon.workers}</p>
+          </div>
+        </Popup>
+      )} */}
+ 
+/Users/imac/Desktop/Wheel-of-Fortune/frontendpwa/src/TutorialPrem
+ 
+Papa.parse(csvFile, {
+    download: true,
+    complete: function (input) {
+         const records = input.data;
+    }
+});
+
+ 
+.name
+ 
+        console.log(csvString)
+ 
+        console.log(decoder)
+ 
+console.log(result)
+ 
+
+    console.log(JSON.stringify(SSCSV))
+ 
+import FileSaver from 'file-saver';
+ 
+FileSaver.saveAs(sanitizedData, 'data.csv');
+ 
+FileSaver.saveAs(data, 'data.csv');
+ 
+        console.log(csvString)
+ 
+        console.log(result)
+ 
+console.log(sanitizedData)
+ 
+        console.log(filePath)
+ 
+console.log(filePath)
+ 
+alert(csvString)
+ 
+alert(item[key])
+ 
+.name
+ 
+.name
+ 
+<Marker
+position={[13.7, 100.5]} 
+icon={icon}
+>
+<Popup>
+Hello Bangkok.
+The city full with 
+Air pollution and Smile People
+</Popup>
+</Marker>
+ 
+</>
+ 
+data/recipe-database
+ 
+import * as csvParse from 'csv-parse';
+ 
+var myParser:csvParse.CsvParser = csvParse({delimiter: ','}, function(data, err) {
+  console.log(data);
+}) as csvParse.CsvParser;
+ 
+() => 
+ 
+import fs = require('fs');
+var myParser:csvParse.CsvParser = csvParse({delimiter: ','}, function(data, err) {
+  console.log(data);
+});
+
+ 
+import Papa from "papaparse";
+ 
+<div className="App">
+        {csv('data.csv').then(data => {
+        console.log(data)
+// perform all here
+    });}
+       </div>
+ 
+import { csv } from 'd3'
+ 
+// https://stackoverflow.com/questions/64732623/typescript-cannot-find-module-or-its-corresponding-type-declarations
+
+ 
+city_in_Thailand from
+ 
+.csv
+ 
+.csv
+ 
+custom_
+ 
+custom_
+ 
+divIcon, DivIcon, point, 
+ 
+    maptiler : {
+ 
+    }
+ 
+'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+ 
+const map_ref = useRef()
+ 
+ref = {map_ref}
+ 
+url = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+ 
+'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+ 
+import osm from './osm_provider';
+ 
+'https://api.maptiler.com/maps/basic-v2/256/{z}/{x}/{y}.png?key=LbINzySRbeLOdAI74NWD'
+ 
+import { Map } from "leaflet";
+ 
+>
+
+</Map>
+ 
 3. 
  
 How to get data from OSM and display in Leaflet ?
