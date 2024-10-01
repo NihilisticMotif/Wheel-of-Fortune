@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 // --- CODE --------------------------------------------------------------------------------------------
 
-export default function BasicReactTutorial01() {
+export default function RT01_Basic() {
 
 // --- VARIABLE --------------------------------------------------------------------------------------------
 

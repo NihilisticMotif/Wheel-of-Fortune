@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import useFetch from '../hooks/useFetch';
+import useFetch from '../../../hooks/useFetch';
 
-function TutorialCSVbyLoft() {
+export default function LT02_ImportCSV() {
   const [data, setData] = useState<any[]>([])
   const { fetchCsvData }  = useFetch();
 
@@ -20,11 +20,3 @@ function TutorialCSVbyLoft() {
     </>
   )
 }
-
-export default TutorialCSVbyLoft
-
-// REFERENCE 
-// 1. Youtube Video 
-// * https://youtu.be/435HHLfR-c0?si=Jd6EH0_ElUCAem12
-// 2. Code 
-// * https://gist.github.com/thecodingloft/caec4950ce9e313ae33d77f000b20e76

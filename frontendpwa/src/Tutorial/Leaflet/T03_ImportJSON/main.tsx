@@ -19,7 +19,7 @@ interface CityFeature {
 }
 
 // Main Component
-export default function TutorialJSONbyGPT() {
+export default function LT03_ImportJSON() {
   // --- HOOK --------------------------------------------------------------------------------------------
   const [SSCenter, setSSCenter] = useState<[number, number]>([13.7, 100.5]);
   const [SSZoom, setSSZoom] = useState<number>(13);

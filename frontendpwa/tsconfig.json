@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-, "src/BasicLeafletTutorial01"  ]
+, "src/Tutorial/Leaflet/T01_DisplayMarker"  ]
 }

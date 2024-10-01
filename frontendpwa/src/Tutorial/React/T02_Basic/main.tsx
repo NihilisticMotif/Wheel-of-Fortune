@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 // --- CODE --------------------------------------------------------------------------------------------
 
-export default function BasicReactTutorial02() {
+export default function RT02_Basic() {
 
 // --- REACT HOOK --------------------------------------------------------------------------------------------
 // * https://react.dev/reference/react/useState

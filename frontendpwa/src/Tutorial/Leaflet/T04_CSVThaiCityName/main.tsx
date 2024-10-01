@@ -4,7 +4,7 @@ import { Icon } from 'leaflet';
 
 import { TileLayer, MapContainer, Marker, Popup } from "react-leaflet";
 import { useState, useEffect } from 'react';
-import useFetch from '../hooks/useFetch';
+import useFetch from '../../../hooks/useFetch';
 
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import tilelayer from './tilelayer';
@@ -14,7 +14,7 @@ import './main.css'
 
 // --- CODE --------------------------------------------------------------------------------------------
 
-export default function TutorialPrem(){
+export default function LT04_CSVThaiCityName(){
 // --- HOOK --------------------------------------------------------------------------------------------
 const [SSCenter, setSSCenter] = useState<[number, number]>([13.7, 100.5])
 const [SSZoom, setSSZoom] = useState<number>(13)
@@ -32,10 +32,6 @@ const icon = new Icon({
     iconUrl:require("./img/placeholder.png"),
     iconSize:[32,32]
 })
-
-//const thai_city = SSData.map(recipe => (
-//        <p>{recipe.name_en}</p>
-//      ))
 
 const thai_city:JSX.Element[] = SSData.map(city => (
     GetThaiCity(city)

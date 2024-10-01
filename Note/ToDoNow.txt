@@ -23,9 +23,10 @@ To Do Now
 2. Use Mumu method to research about Wheelchair Map 
  * https://docs.google.com/document/d/1PiKKbdHmOFPj14jF5NzqsSN5YtyXLLGffCnXUC7b1AM/edit?usp=sharing
 2. Lean the Basic React 
- 1. What does public folder do ?
- 2. Understanding fetch and Asynchronous Data Loading
+ 1. Folder Structure of React PWA.
+ 2. Fetch and Asynchronous Data Loading
  3. File Paths and Routing in React
  4. React Map Libraries and GeoJSON Integration
  5. Local vs. External Data Handling
  6. Project Configuration & Build Tools
+3. Transform txt folders in to md files in Note folder.
