@@ -18,14 +18,14 @@ export default function TutorialPrem(){
 // --- HOOK --------------------------------------------------------------------------------------------
 const [SSCenter, setSSCenter] = useState<[number, number]>([13.7, 100.5])
 const [SSZoom, setSSZoom] = useState<number>(13)
-const [SSCSV, setSSCSV] = useState<any[]>([])
-const [data, setData] = useState<any[]>([])
-
+const [SSData, setSSData] = useState<any[]>([])
 const { fetchCsvData }  = useFetch();
+
 useEffect(() => {
-  fetchCsvData('/tutorialdata_02.csv', setData)
-  console.log(data)
+  fetchCsvData('/tutorialdata_02.csv', setSSData)
 }, [])
+
+console.log(SSData);
 
 // --- VARIABLE --------------------------------------------------------------------------------------------
 const icon = new Icon({
@@ -33,37 +33,55 @@ const icon = new Icon({
     iconSize:[32,32]
 })
 
-//const thai_city = data.map(recipe => (
+//const thai_city = SSData.map(recipe => (
 //        <p>{recipe.name_en}</p>
 //      ))
 
-const thai_city:JSX.Element[] = SSCSV.map(city => (
-    <Marker 
-        position={[city.lon, city.lat]} 
-        icon={icon}
-    >
-    <Popup>
-<h1>ชื่อ {city.name}</h1>
-<h1>Name {city.name_en}</h1>
-</Popup>
-    </Marker>
+const thai_city:JSX.Element[] = SSData.map(city => (
+    GetThaiCity(city)
 ))
+
 // https://stackoverflow.com/questions/52428879/objects-are-not-valid-as-a-react-child-if-you-meant-to-render-a-collection-of-c
 
+// --- FUNCTION --------------------------------------------------------------------------------------------
 
-// const jsx_marker:JSX.Element[] = data.features.map((key:any, i:number) => (<>{key}</>));
+function GetThaiCity(city:any):JSX.Element{
+    if([undefined, null].includes(city)){
+        return <></>
+    }
+    if([undefined, null].includes(city?.lat) || [undefined, null].includes(city?.lon)){
+        return <></>
+    }
+    else{
+        return <Marker 
+        position={[city?.lat, city?.lon]} 
+        icon={icon}
+        >
+        <Popup>
+        <h3>ชื่อ {city?.name}</h3>
+        <h3>Name {city?.name_en}</h3>
+        </Popup>
+        </Marker>
+    }
+}
 
 // --- RETURN CODE --------------------------------------------------------------------------------------------
 
 return (
 <>
+
+
 <MapContainer center={SSCenter} zoom={SSZoom} >
 <TileLayer
 url={tilelayer.url}
 attribution={tilelayer.attribution}
 />
-{thai_city}
+{
+thai_city
+}
 </MapContainer>
+
+
 
 </>
 )

@@ -1,3 +1,86 @@
+        console.log([city?.lat, city?.lon])
+ 
+.filter(city => city.lat && city.lng)
+ 
+    if(city === null){
+        return <></>
+    }
+    else{
+        
+ 
+        let let_position = 
+ 
+// 
+ 
+typeof 
+ 
+[0].lat
+ 
+    else if(city?.lat === undefined || city?.lon === undefined){
+        return <></>
+    }
+ 
+return 
+ 
+    let letst = rue
+ 
+    else{
+ 
+_marker
+ 
+function GetThaiCity():JSX.Element[]|JSX.Element{
+    if (SSData is) {
+        return <></>
+    }
+    else{
+        return <h1>H</h1>
+    }
+}
+ 
+const thai_city:JSX.Element[] = SSData.map(city => (
+    <Marker 
+        position={[city.lat, city.lon]} 
+        icon={icon}
+    >
+    <Popup>
+<h1>ชื่อ {city.name}</h1>
+<h1>Name {city.name_en}</h1>
+</Popup>
+    </Marker>
+))
+
+ 
+
+console.log(typeof SSData[0].lat);
+
+ 
+const thai_city_h1:JSX.Element[] = SSData.map(recipe => (
+        <p>{recipe.name_en}</p>
+      ))
+ 
+
+
+// const jsx_marker:JSX.Element[] = SSData.features.map((key:any, i:number) => (<>{key}</>));
+ 
+//
+ 
+{thai_city_h1}
+{
+ 
+d
+ 
+  console.log(SSData)
+ 
+const [SSData, setSSCSV] = useState<any[]>([])
+ 
+const { fetchCsvData }  = useFetch();
+ 
+const [SSData, setSSData] = useState<any[]>([])
+ 
+const thai_city_h1:JSX.Element[] = SSCSV.map(city =>(
+<h1>{city.name_en}</h1>
+))
+ 
 <Marker 
         position={[13,100]} 
         icon={icon}
