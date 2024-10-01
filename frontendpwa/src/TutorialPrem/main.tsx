@@ -70,7 +70,6 @@ function GetThaiCity(city:any):JSX.Element{
 return (
 <>
 
-
 <MapContainer center={SSCenter} zoom={SSZoom} >
 <TileLayer
 url={tilelayer.url}
@@ -80,8 +79,6 @@ attribution={tilelayer.attribution}
 thai_city
 }
 </MapContainer>
-
-
 
 </>
 )
