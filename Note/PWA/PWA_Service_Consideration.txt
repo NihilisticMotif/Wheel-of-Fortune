@@ -1,9 +1,0 @@
-As the comment states, switching `serviceWorker.unregister()` to `serviceWorker.register()` will opt you in to using the service worker.
-
-The reason is that 
-* `serviceWorker.register()` make the app work better but harder to debug.
-
-See PWA_Consideration.txt
-
-Reference
-* https://create-react-app.dev/docs/making-a-progressive-web-app/

@@ -1,8 +1,0 @@
-
-Reference 
-1. Making The Existing React Project a PWA and Android App
-* https://hnurn.medium.com/making-the-existing-react-project-a-pwa-and-android-app-a-simple-guide-9ebaa6ddb45e
-2. How to Convert React App or Website to Mobile App ? ( PWA Tutorial ) Desktop - Android - iOS
-* https://youtu.be/4EC-3lCll6E?si=jYo4jnexMp75wHG0
-3. Progressive Web Apps in 100 Seconds // Build a PWA from Scratch
-* https://youtu.be/sFsRylCQblw?si=kqr-hQE-91kifm8X

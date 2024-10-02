@@ -1,3 +1,5 @@
+# Can I use PWA in Android ?
+
 Before 2019, PWA is not discovered in Google App Store.
 
 In order to make Google App Store recognize PWA app, you have to pay 20$ for dev account 
