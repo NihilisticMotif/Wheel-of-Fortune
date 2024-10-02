@@ -27,7 +27,7 @@ export default function LT03_ImportJSON() {
 
   // --- Load and Set GeoJSON Data -----------------------------------------------------------------------
 useEffect(() => {
-  fetch('/tutorialdata_01.geojson')
+  fetch('/TutorialData/T01_ThaiCity.geojson')
     .then(response => response.json())
     .then((data: any) => {
       console.log("Loaded GeoJSON:", data.features); // Debugging to ensure the data is loaded

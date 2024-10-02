@@ -14,7 +14,7 @@ import './main.css'
 
 // --- CODE --------------------------------------------------------------------------------------------
 
-export default function LT04_CSVThaiCityName(){
+export default function LT04_CSVThaiCity(){
 // --- HOOK --------------------------------------------------------------------------------------------
 const [SSCenter, setSSCenter] = useState<[number, number]>([13.7, 100.5])
 const [SSZoom, setSSZoom] = useState<number>(13)
@@ -22,7 +22,7 @@ const [SSData, setSSData] = useState<any[]>([])
 const { fetchCsvData }  = useFetch();
 
 useEffect(() => {
-  fetchCsvData('/tutorialdata_02.csv', setSSData)
+  fetchCsvData('/TutorialData/T02_ThaiCity.csv', setSSData)
 }, [])
 
 console.log(SSData);

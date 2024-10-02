@@ -6,7 +6,7 @@ export default function LT02_ImportCSV() {
   const { fetchCsvData }  = useFetch();
 
   useEffect(() => {
-    fetchCsvData('/tutorialdata_02.csv', setData)
+    fetchCsvData('/TutorialData/T02_ThaiCity.csv', setData)
   }, [])
 
   console.log(data);
@@ -14,8 +14,8 @@ export default function LT02_ImportCSV() {
   return (
     <>
       <h3>City in Thailand</h3>
-      {data.map(recipe => (
-        <p>{recipe.name_en}</p>
+      {data.map(thai_city => (
+        <p>{thai_city.name_en}</p>
       ))}
     </>
   )

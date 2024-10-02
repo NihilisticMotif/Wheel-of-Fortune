@@ -22,10 +22,5 @@ To Do Now
  * https://wiki.openstreetmap.org/wiki/Wheelmap
 2. Use Mumu method to research about Wheelchair Map 
  * https://docs.google.com/document/d/1PiKKbdHmOFPj14jF5NzqsSN5YtyXLLGffCnXUC7b1AM/edit?usp=sharing
-2. Lean the Basic React 
- 1. Folder Structure of React PWA.
- 2. Fetch and Asynchronous Data Loading
- 3. File Paths and Routing in React
- 4. React Map Libraries and GeoJSON Integration
- 5. Local vs. External Data Handling
- 6. Project Configuration & Build Tools
+3. Learn Asynchronous Programming
+ * https://youtu.be/ZYb_ZU8LNxs?si=OJPGcUKrTn6KrzV5

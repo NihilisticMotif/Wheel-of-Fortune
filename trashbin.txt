@@ -1,3 +1,76 @@
+needs 
+ 
+# Keyword
+
+1. module bundler
+* A development tool that finds all the files that an application depends on and combines them into a single loadable file.
+* https://dev.to/mustafamilyas/brief-explanation-of-javascript-module-bundler-b1k
+* https://third-bit.com/sdxjs/module-bundler/#:~:text=A%20module%20bundler%20finds%20all,but%20just%20one%20network%20request.
+2. Webpack
+* Module bundler that is used with React to bundle and manage dependencies.
+* https://www.scaler.com/topics/react/webpack-in-react/
+3. search engine crawlers
+* crawler or web spider, is a computer program that's used to search and automatically index website content and other information over the internet.
+* https://www.techtarget.com/whatis/definition/crawler#:~:text=A%20web%20crawler%2C%20crawler%20or,for%20a%20search%20engine%20index.
+
+ 
+# Files inside React
+
+ 
+Reference
+* https://create-react-app.dev/docs/folder-structure
+ 
+ 6. Project Configuration & Build Tools
+ 
+ 1. Folder Structure of React PWA.
+ 
+
+Reference
+ 
+  // Safely extract the coordinates using optional chaining
+ 
+
+  // Filter for Bangkok data
+ 
+console.log(SSData[0].geometry.coordinates)
+ 
+
+const jsx_marker:JSX.Element[] = ls_marker.map((marker:I_Marker)=>(
+    <Marker 
+        position={marker.geocode} 
+        icon={custom_icon}
+    >
+    <Popup>My name is {marker.pop_up}.</Popup>
+    </Marker>
+));
+ 
+/* 
+ 
+    console.log(city)
+ 
+n
+ 
+
+console.log(SSData[0]?.properties['name:en']);
+ 
+    if([undefined, null].includes(city?.lat) || [undefined, null].includes(city?.lon)){
+        return <></>
+    }
+ 
+"Loaded GeoJSON:", 
+ 
+["properties"]
+ 
+import useFetch from '../../../hooks/useFetch';
+ 
+const { fetchCsvData }  = useFetch();
+ 
+commonly 
+ 
+older
+ 
+ and file
+ 
 3. Transform txt folders in to md files in Note folder.
  
 ```
