@@ -107,7 +107,7 @@ const ignored = self.__WB_MANIFEST;
 // Your custom service worker code goes here.
 ```
 
-## Progressive Web App Metadata
+# Progressive Web App Metadata
 
 The default configuration includes a web app manifest located at `public/manifest.json`
 The metadata in manifest.json determines what icons, names, 

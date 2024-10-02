@@ -29,4 +29,3 @@ To Do Now
  4. React Map Libraries and GeoJSON Integration
  5. Local vs. External Data Handling
  6. Project Configuration & Build Tools
-3. Transform txt folders in to md files in Note folder.

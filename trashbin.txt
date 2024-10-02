@@ -1,3 +1,5 @@
+3. Transform txt folders in to md files in Note folder.
+ 
 ```
  
 # PWA Service Consideration
