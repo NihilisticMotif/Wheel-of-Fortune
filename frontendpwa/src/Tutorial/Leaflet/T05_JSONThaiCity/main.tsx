@@ -20,6 +20,8 @@ const [SSZoom, setSSZoom] = useState<number>(13)
 const [SSData, setSSData] = useState<any[]>([])
 
 useEffect(() => {
+  console.log('navigator')
+  console.log(navigator)
   fetch('/TutorialData/T01_ThaiCity.geojson')
     .then(response => response.json())
     .then((data: any) => {

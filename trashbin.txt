@@ -1,3 +1,302 @@
+// useEffect(()=>{
+//     getUserLocation()
+// },[])
+ 
+    console.log(err);
+ 
+const myPromise: Promise<UserLocation> = new Promise((resolve, reject) => {
+  // This Promise resolves to a string
+});
+
+ 
+useEffect(() => {
+const myPromise: Promise<UserLocation> = new Promise((resolve, reject) => {
+  // This Promise resolves to a string
+});
+ 
+console.log(SSUserLocation)
+ 
+await
+ 
+:any
+ 
+:any
+ 
+        setSSUserLocation(newUserPos) 
+ 
+useEffect(()=>{
+setSSCenter(user_location.location)
+},[])
+ 
+const [SSCenter, setSSCenter] = useState<[number,number]>([20,20])
+ 
+            console.log(newUserPos)
+ 
+console.log(SSCenter)
+ 
+          console.log(newUserPos)
+ 
+          console.log(newUserPos)
+ 
+          //console.log(pos.coords.latitude + " " + pos.coords.longitude) // display VALUE
+ 
+// store data in usestate
+ 
+          console.log(newUserPos) // Display your values
+ 
+,options
+ 
+const my_navigate = useNavigate()
+ 
+import { useNavigate } from 'react-router-dom';
+ 
+export default useGeoLocation;
+ 
+let user_location:UserLocation = error_location
+ 
+setSSUserLocation(user_location)
+ 
+function GetUserLocation(){navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          return {
+            loaded:true,
+            location:[latitude, longitude]
+          };
+        },
+        (error) => {
+            return error_location
+        }
+    );}
+ 
+else {
+    user_location = error_location
+}
+ 
+    console.log(navigator.geolocation)
+ 
+console.log(navigator.geolocation)
+ 
+SSUserLocation
+ 
+, useLayoutEffect
+ 
+serLocation 
+ 
+:UserLocation
+ 
+() => 
+ 
+async 
+ 
+let geo_position = await navigator//.geolocation
+ 
+console.log('getUserLocation is activated')
+ 
+SSUserLocation
+ 
+async 
+ 
+function 
+ 
+ = async () => 
+ 
+    console.log(SSUserLocation)
+ 
+    // if geolocation is supported by the users browser
+ 
+      // get the current users location
+ 
+          // save the geolocation coordinates in two variables
+ 
+          // update the value of userlocation variable
+ 
+        // if there was an error getting the users location
+ 
+    // if geolocation is not supported by the users browser
+ 
+            console.error('Error getting user location:', error);
+ 
+{ latitude, longitude }
+ 
+const [is_update,setIs_update] = useState<boolean>(false)
+ 
+console.log(user_location)
+ 
+setLocation({
+    loaded:false,
+    location: [0,0]
+})
+ 
+navigator,location
+ 
+console.log(location)
+ 
+    console.log(location)
+ 
+else{
+setLocation({
+    loaded:false,
+    location: [0,0]
+})
+}
+
+ 
+console.log('Hello Jojo')
+ 
+console.log('Hello Dio')
+ 
+
+// --- CODE --------------------------------------------------------------------------------------------
+
+ 
+
+import './main.css'
+
+
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css'
+import { divIcon, DivIcon, point, Icon } from 'leaflet';
+import MarkerClusterGroup from 'react-leaflet-cluster'
+import "leaflet.markercluster";
+
+// import type { MarkerCluster } from 'leaflet.markercluster'; 
+// import cluster from 'cluster'
+// import * as L from "leaflet";
+ 
+
+export default function T06_AccessUserLocation(){
+// --- HOOK --------------------------------------------------------------------------------------------
+// const [SSUserLocation, setSSUserLocation] = useState<UserLocation>({
+//     loaded:false,
+//     location:[0,0]
+// })
+const [SSCenter, setSSCenter] = useState<[number,number]>([0,0])
+const [SSZoom, setSSZoom] = useState<number>(13)
+const user_location = useGeoLocation()
+const mapRef = useRef();
+
+useEffect(()=>{
+console.log(user_location)
+},[])
+
+// --- VARIABLE --------------------------------------------------------------------------------------------
+const custom_icon = new Icon({
+    iconUrl:require("./img/placeholder.png"),
+    iconSize:[32,32]
+})
+
+const jsx_user_location:JSX.Element = <></>
+
+// --- FUNCTION --------------------------------------------------------------------------------------------
+
+// --- RETURN CODE --------------------------------------------------------------------------------------------
+
+return (<>
+<MapContainer center={[13.736717, 100.523186]} zoom={13}>
+<TileLayer
+attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+url = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
+/>
+
+</MapContainer>    
+</>)
+}
+*/
+ 
+{jsx_marker}
+ 
+const jsx_marker:JSX.Element[] = ls_marker.map((marker:I_Marker)=>(
+    <Marker 
+        position={marker.geocode} 
+        icon={custom_icon}
+    >
+    <Popup>My name is {marker.pop_up}.</Popup>
+    </Marker>
+));
+ 
+import { ls_marker, I_Marker } from './marker'
+ 
+
+declare var window: Window
+declare var navigator: Navigator
+
+ 
+{/* WATERCOLOR CUSTOM TILES */}
+{/* <TileLayer
+    attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    url="https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg"
+/> */}
+ 
+<MarkerClusterGroup
+    chunkedLoading
+>
+
+</MarkerClusterGroup>
+ 
+    width: 100%
+ 
+{jsx_marker}
+ 
+// url.innerHTML += window.location.href
+// browser.innerHTML += navigator.userAgent
+ 
+
+
+//    useEffect(() => {
+//        if (!("geolocation" in navigator)) {
+//            setLocation({
+//            loaded: false,
+//            location:[0,0],
+//        })
+//        }
+
+//        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+//    }, []);
+ 
+// else{
+// setLocation({
+// loaded:false,
+// location:[navigator?.coords?.latitude, navigator?.coords?.longitude]
+// })
+// }
+ 
+function GetLocation()
+ 
+useEffect(()=>{
+},[])
+ 
+// 
+// useEffect(()=>{
+// console.log(navigator);
+// },[])
+ 
+//console.log(url)
+console.log(navigator.geolocation)
+ 
+error:any
+ 
+* https://stackoverflow.com/questions/9596276/how-to-explain-callbacks-in-plain-english-how-are-they-different-from-calling-o#:~:text=A%20%22callback%22%20is%20any%20function,event%22%20in%20programmer%2Dspeak.
+ 
+eturn r
+ 
+.language
+ 
+let url: HTMLParagraphElement = document.getElementById(
+   'url'
+) as HTMLParagraphElement
+let browser: HTMLParagraphElement = document.getElementById(
+   'browser'
+) as HTMLParagraphElement
+ 
+declare var window: Window
+declare var navigator: Navigator
+ 
+The Window object, known as the Global TypeScript object, represents the current web page in a browser window. The location, history, and document of the current page, as well as other methods and attributes, can all be accessed and controlled using this method. The Navigator object is a property of the Window object. 
+
+ 
+console.log(tierzoo);
+ 
 needs 
  
 # Keyword

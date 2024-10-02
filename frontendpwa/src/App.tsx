@@ -8,11 +8,12 @@ import LT02_ImportCSV         from './Tutorial/Leaflet/T02_ImportCSV/main';
 import LT03_ImportJSON        from './Tutorial/Leaflet/T03_ImportJSON/main';
 import LT04_CSVThaiCity       from './Tutorial/Leaflet/T04_CSVThaiCity/main';
 import LT05_JSONThaiCity      from './Tutorial/Leaflet/T05_JSONThaiCity/main';
+import LT06_AccessUserLocation from './Tutorial/Leaflet/T06_AccessUserLocation/main';
 
 function App() {
   return (
   <>
-    <LT05_JSONThaiCity/>
+    <LT06_AccessUserLocation/>
   </>
   );
 }
